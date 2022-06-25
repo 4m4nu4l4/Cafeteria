@@ -1,3 +1,7 @@
+*{
+    background-color: #CFA99C !important;
+}
+
 .footer {
 
     color: #000000;
@@ -16,5 +20,16 @@
 }
 
 .pesquisar{
-    margin-left: 50%;
+    float: right;
+}
+
+.carrosselSlide{
+   background-color: #CFA99C; 
+   margin-left: 300px;
+   width: auto;
+   height: 200px;
+}
+
+.escritadoCarrossel{
+    color: #211616;
 }
