@@ -1,5 +1,6 @@
 .navbar-home{
-    background-color: #CFA99C !important;
+    background-color: none; 
+
 }
 
 .footer {
@@ -14,6 +15,9 @@
     text-align: center;
  display: inline-block;
 
+}
+.carrosselteste{
+    margin-top: -16px;
 }
 .footer-link {
     color: #000000;
