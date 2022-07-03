@@ -9,80 +9,53 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="testes.html"> 
+  <link rel="stylesheet" href="teste.css"> 
 </head>
 <title>Welcome ☕</title>
 
 <body>
   <!-- Conteúdo do navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light navbar-home bg-tranparent" >
+  <nav class="navbar navbar-expand-lg navbar-light navbar-home bg-image" >
     <img src="imagens/logoOriginal.png" width="auto" height="100" alt="">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar"
       aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="textoNavbar">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="indexx.html">cakes</a>
+      <ul class="navbar-nav mr-auto d-flex">
+        <li class="nav-item links-menu d-flex">
+          <oi class="nav-link text-white"><b>Finesse Coffee shop</b></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="pg2.html">coffes</a>
+        <li class="nav-item links-menu d-flex">
+          <a class="nav-link navbar-link" href="indexx.html">cakes</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="testes.html">PAGINA DE TESTES<span class="sr-only"></span></a>
-          </li>
-        <li class="nav-item">
+        <li class="nav-item links-menu d-flex">
+          <a class="nav-link navbar-link" href="pg2.html">coffes</a>
+        </li>
+        <li class="nav-item links-menu d-flex">
+          <a class="nav-link navbar-link" href="testes.html">PAGINA DE TESTES<span class="sr-only"></span></a>
+        </li>
 
-          <form class="form-inline my-2 my-lg-0" id="pesquisar">
-            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-            <button type="button" class="btn btn-dark">Pesquisar</button>
-          </form>
+        <div class="d-flex botoes-login">
+          <button style="margin-right: 15px;" class="btn btn-dark botao-login" type="button">Sing In</button>
+          <br>
+          <button class="btn btn-dark botao-login" type="button">Login</button>
+        </div>
 
-          </form>
     </div>
   </nav>
 
-    <div class="container-fluid" style="background-color: #7D502B;" id="carrosselteste">
-      <div class="div w-75 m-auto">
-        <div id="carrosselSlide" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="imagens/carrossel1.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="imagens/carrossel2.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="imagens/carrossel3.jpg" class="d-block w-100" alt="...">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carrosselSlide" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carrosselSlide" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
+  <div class="container-home text-white d-flex align-items-center">
+      <div class="grupo-texto">
+        <h1 class="texto-titulo">Card title</h1>
+        <p class="texto-home">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       </div>
-    </div>
-    
   </div>
-
-  <div class="card bg-dark text-white">
-      <img src="imagens/carrossel3.jpg" id="card" class="card-img" alt="IMAGEM AQUI">
-      <div class="card-img-overlay">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text">Last updated 3 mins ago</p>
-        
-      </div>
-    </div>
-    
-    
+  
+  <div class="container-fluid conteudo-home">
+    <p>abababab</p>
   </div>
+ 
 </body>
 
 </html>
