@@ -90,7 +90,10 @@
 
 .conteudo-home{
     z-index: 1;
-    margin-top: 86vh;
+    margin-top: 89vh;
     position: relative;
     display: flex;
+}
+.texto-cards{
+    
 }
