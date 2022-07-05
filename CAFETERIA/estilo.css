@@ -24,9 +24,11 @@
 }
 .botoes-login{
     margin-left: 50vw;
+  
 }
 .botao-login{ 
     border-radius: 0;
+    background-color: #52362B;
 }
 .pesquisar{
     float: right;
