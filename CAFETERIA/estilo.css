@@ -1,11 +1,12 @@
 .navbar-home{
-    background-color: #CFA99C !important;
+    background-color:#CFA99C ; 
+
 }
 
 .footer {
 
     color: #000000;
-    background-color:#5d7ead;
+    background-color:#CFA99C;
     line-height: 40px;
     padding-top: 22.5px;
     padding-bottom: 22.5px;
@@ -15,10 +16,18 @@
  display: inline-block;
 
 }
+.carrosselteste{
+    margin-top: -16px;
+}
 .footer-link {
     color: #000000;
 }
-
+.botoes-login{
+    margin-left: 50vw;
+}
+.botao-login{ 
+    border-radius: 0;
+}
 .pesquisar{
     float: right;
 }
