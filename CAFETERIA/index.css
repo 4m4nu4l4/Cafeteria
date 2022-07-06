@@ -100,15 +100,19 @@
 }
 .rodape{
      z-index: 1;
-    margin-top: 89vh;
+    margin-top: 83vh;
     position: relative;
     display: flex;
-    background-color: #5d7ead;
-    height: 300px;
+    background-color: #CFA99C;
+    height: 340px;
     width: 100%;
 }
 
-.EMANUELE{
-    height: 60px;
-    width: px;
-}
+#EMANUELE{
+    margin-right: 0px;
+    margin-top: 15px;
+    height: 103px;
+    width: 103px;
+    border-radius: 50%;
+    display: flex;
+  }
