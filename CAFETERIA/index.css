@@ -96,15 +96,19 @@
     display: flex;
 }
 .texto-cards{
-    
+    background-color: #000000;
 }
 .rodape{
+     z-index: 1;
+    margin-top: 89vh;
+    position: relative;
+    display: flex;
     background-color: #5d7ead;
     height: 300px;
     width: 100%;
 }
 
 .EMANUELE{
-    height: 100px;
-    width: auto;
+    height: 60px;
+    width: px;
 }
