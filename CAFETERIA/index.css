@@ -104,15 +104,15 @@
     position: relative;
     display: flex;
     background-color: #CFA99C;
-    height: 340px;
+    height: 360px;
     width: 100%;
 }
 
 #EMANUELE{
     margin-right: 0px;
     margin-top: 15px;
-    height: 103px;
-    width: 103px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     display: flex;
   }
