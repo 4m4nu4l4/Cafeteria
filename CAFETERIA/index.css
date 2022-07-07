@@ -98,8 +98,9 @@
     display: flex;
 }
 
-.texto-cards {
-    background-color: #000000;
+.div-desenvolvedor {
+    margin-right: 10px;
+    margin-left: 0;
 }
 
 .rodape {
