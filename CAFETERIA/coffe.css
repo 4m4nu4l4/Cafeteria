@@ -1,39 +1,45 @@
-.navbar-home{
-    background-color:#CFA99C ; 
+.navbar-home {
+    background-color: #CFA99C;
 
 }
 
 .footer {
 
     color: #000000;
-    background-color:#CFA99C;
+    background-color: #CFA99C;
     line-height: 40px;
     padding-top: 22.5px;
     padding-bottom: 22.5px;
     width: 100%;
     height: 70px;
     text-align: center;
- display: inline-block;
+    display: inline-block;
 
 }
-.carrosselteste{
+
+.carrosselteste {
     margin-top: -16px;
 }
+
 .footer-link {
     color: #000000;
 }
-.botoes-login{
+
+.botoes-login {
     margin-left: 50vw;
-   
+
 }
-.botao-login{ 
+
+.botao-login {
     border-radius: 0;
     background-color: #52362B;
 }
-.pesquisar{
+
+.pesquisar {
     float: right;
 }
-.imagem{
+
+.imagem {
     width: 100%;
     height: 70px;
 }

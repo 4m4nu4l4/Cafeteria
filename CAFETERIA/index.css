@@ -2,26 +2,26 @@
 
 }*/
 
-.navbar-home{
-    background-color: none; 
+.navbar-home {
+    background-color: none;
     position: relative;
     display: flex;
     z-index: 1;
 }
 
-.navbar-link{
+.navbar-link {
     color: #FFFFFF;
 }
 
-.links-menu{
+.links-menu {
     position: relative;
 }
 
-.botoes-login{
+.botoes-login {
     margin-left: 50vw;
 }
 
-.botao-login{ 
+.botao-login {
     border-radius: 0;
     background-color: #52362B;
 }
@@ -29,7 +29,7 @@
 .footer {
 
     color: #000000;
-    background-color:#5d7ead;
+    background-color: #5d7ead;
     line-height: 40px;
     padding-top: 22.5px;
     padding-bottom: 22.5px;
@@ -39,33 +39,35 @@
     display: inline-block;
 
 }
-.carrosselteste{
+
+.carrosselteste {
     margin-top: -16px;
 }
+
 .footer-link {
     color: #000000;
 }
 
-.pesquisar{
+.pesquisar {
     float: right;
 }
 
-.containter-carrossel{
+.containter-carrossel {
     background-color: #7D502B;
 }
 
-.carrosselSlide{
-   background-color: #CFA99C; 
-   margin-left: 300px;
-   width: auto;
-   height: 200px;
+.carrosselSlide {
+    background-color: #CFA99C;
+    margin-left: 300px;
+    width: auto;
+    height: 200px;
 }
 
-.escritadoCarrossel{
+.escritadoCarrossel {
     color: #211616;
 }
 
-.container-home{
+.container-home {
     top: 0;
     z-index: 0;
     position: absolute;
@@ -75,8 +77,8 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-    
-.grupo-texto{
+
+.grupo-texto {
     z-index: 1;
     font-size: 32px;
     position: relative;
@@ -85,34 +87,36 @@
     width: 90vw;
 }
 
-.grupo-texto h1{
+.grupo-texto h1 {
     font-size: 56px;
 }
 
-.conteudo-home{
+.conteudo-home {
     z-index: 1;
     margin-top: 89vh;
     position: relative;
     display: flex;
 }
-.texto-cards{
+
+.texto-cards {
     background-color: #000000;
 }
-.rodape{
-     z-index: 1;
-    margin-top: 83vh;
+
+.rodape {
+    z-index: 1;
+    margin-top: 79vh;
     position: relative;
     display: flex;
     background-color: #CFA99C;
-    height: 360px;
+    height: 420px;
     width: 100%;
 }
 
-#EMANUELE{
+#informacoes {
     margin-right: 0px;
     margin-top: 15px;
     height: 200px;
     width: 200px;
     border-radius: 50%;
     display: flex;
-  }
+}
